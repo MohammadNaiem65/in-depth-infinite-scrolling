@@ -17,6 +17,7 @@ body {
 }
 
 .inner {
+    width: fit-content;
     padding-block: 1rem;
     display: flex;
     gap: 1rem;
@@ -32,6 +33,6 @@ p {
 
 @keyframes scroll {
     to {
-        transform: translate(-100%);
+       transform: translate(calc(-50% - .5rem));
     }
 }
